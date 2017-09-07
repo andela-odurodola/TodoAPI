@@ -1,0 +1,7 @@
+# Add configuration values here, as shown below.
+
+POSTGRES_USER: ''
+POSTGRES_PASSWORD: ''
+POSTGRES_HOST: 'localhost'
+POSTGRES_DB: 'todo_app'
+POSTGRES_TEST_DB: 'todo_test'
