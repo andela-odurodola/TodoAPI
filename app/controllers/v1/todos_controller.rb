@@ -4,7 +4,8 @@ module V1
 
     # GET /todos
     def index
-      @todos = current_user.todos.paginate(page: params[:page], per_page: 10)
+      @todos = Todo.all
+      # @todos = current_user.todos.paginate(page: params[:page], per_page: 10)
       json_response(@todos)
     end
 
