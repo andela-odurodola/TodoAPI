@@ -25,6 +25,8 @@ gem 'active_model_serializers', '~> 0.10.0'
 # Pagination
 gem 'will_paginate', '~> 3.1.0'
 gem 'faker'
+# Manage multiple process
+gem 'foreman', '~> 0.82.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -33,6 +35,8 @@ gem 'faker'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'pry'
+  gem 'rb-readline'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Testing framework.
   gem 'rspec-rails', '~> 3.5'
